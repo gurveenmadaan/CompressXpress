@@ -25,7 +25,11 @@ Before using CompressXpress, ensure you have the following installed:
 1. Clone the repository: `git clone https://github.com/your-username/compressxpress.git`
 2. Navigate to the project directory: `cd compressxpress`
 3. Compile the source code using the provided Makefile: `make`
-4. Run the application: `Run .\aar <parameter> <filename with extension> <br> ; Parameters:<br> ; -e : To encode the file<br>  ;  -d : To decode the file<br>`
+4. Run the application:
+`Run .\aar <parameter> <filename with extension> <br>
+Parameters:<br> 
+-e : To encode the file<br>  
+-d : To decode the file<br>`
 
 ## Usage
 - To compress a text file, use the command: `./compressxpress -c input.txt output.cpx`
